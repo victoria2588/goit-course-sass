@@ -1,0 +1,32 @@
+.small-btn {
+  font-size: 10px;
+  color: black;
+  background-color: lightblue;
+}
+
+body {
+  background-color: lightblue;
+}
+
+p {
+  color: white;
+  background-color: teal;
+}
+
+/*  == END ==  */
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+}

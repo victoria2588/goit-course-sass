@@ -1,0 +1,132 @@
+// .link {
+//   color: black;
+// }
+// .link:hover {
+//   color: red;
+// }
+
+// .link:focus {
+//   color: red;
+// }
+
+// .link {
+//   color: black;
+
+//   &:hover {
+//     color: red;
+//   }
+
+//   &:focus {
+//     color: red;
+//   }
+// }
+
+// .link {
+//   color: black;
+
+//   &:hover,
+//   &:focus {
+//     color: red;
+//   }
+// }
+
+// .button {
+//   color: red;
+
+//   &:hover,
+//   &:focus {
+//     color: blue;
+//   }
+
+//   &-icon {
+//     width: 20px;
+//     height: 20px;
+
+//     &:hover {
+//       width: 50px;
+//       height: 50px;
+//     }
+//     .button:hover & {
+//       font-size: 20px;
+//     }
+//   }
+
+//   &-label {
+//     font-size: 16px;
+
+//     .button:hover & {
+//       font-size: 20px;
+//     }
+//   }
+// }
+
+// .button {
+//   color: red;
+
+//   &:hover,
+//   &:focus {
+//     color: blue;
+//   }
+// }
+
+// .button-icon {
+//   width: 20px;
+//   height: 20px;
+
+//   &:hover {
+//     width: 50px;
+//     height: 50px;
+//   }
+
+//   .button:hover & {
+//     font-size: 20px;
+//   }
+// }
+
+// .button-label {
+//   font-size: 16px;
+
+//   .button:hover & {
+//     font-size: 20px;
+//   }
+// }
+
+.button {
+  //   background: {
+  //     color: teal;
+  //     position: center;
+  //     repeat: no-repeat;
+  //   }
+
+  background: teal {
+    position: center;
+    repeat: no-repeat;
+  }
+
+  &:hover,
+  &:focus {
+    color: blue;
+  }
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+    width: 50px;
+    height: 50px;
+  }
+
+  .button:hover & {
+    font-size: 20px;
+  }
+}
+
+.button-label {
+  font-size: 16px;
+
+  .button:hover & {
+    font-size: 20px;
+  }
+}

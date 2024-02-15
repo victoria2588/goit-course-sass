@@ -1,32 +1,8 @@
-.notification-info, .notification-success, .notification-primary {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-          align-items: center;
-  gap: 20px;
-  width: 480px;
-  padding: 20px;
-  font-family: Montserrat;
-  color: #fafafb;
-  font-size: 16px;
-  line-height: 20px; /* 125% */
-  letter-spacing: 0.5px;
-  background-color: #92929d;
-  border-radius: 6px;
+.button {
+  background-color: white;
+  border: 1px solid darkblue;
 }
-
-.notification-primary {
-  background-color: #f07f2e;
-}
-
-.notification-success {
-  background-color: #82c43c;
-}
-
-.notification-info {
-  background-color: #4e75ff;
+.button:not([disabled]):hover {
+  color: white;
+  background-color: darkblue;
 }

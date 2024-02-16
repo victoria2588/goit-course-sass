@@ -1,28 +1,34 @@
-// @use "lesson-05/variables";
-// @use "lesson-05/button";
-// @use "lesson-05/scopes";
-// @use "lesson-05/base";
+@use "utils";
 
-// @use "lesson-06/nesting";
-// @use "lesson-06/combinators";
-// @use "lesson-06/ampersand";
+:root {
+  font-family: sans-serif;
+}
 
-// @use "lesson-07/math";
-// @use "lesson-07/task";
-// @use "lesson-07/badge";
+// @use "lessons/lesson-05/variables";
+// @use "lessons/lesson-05/button";
+// @use "lessons/lesson-05/scopes";
+// @use "lessons/lesson-05/base";
 
-// @use "lesson-09/extend";
+// @use "lessons/lesson-06/nesting";
+// @use "lessons/lesson-06/combinators";
+// @use "lessons/lesson-06/ampersand";
 
-// @use "lesson-10/mixins";
+// @use "lessons/lesson-07/math";
+// @use "lessons/lesson-07/task";
+// @use "lessons/lesson-07/badge";
 
-// @use "lesson-11/if";
-// @use "lesson-11/each";
+// @use "lessons/lesson-09/extend";
+
+// @use "lessons/lesson-10/mixins";
+
+// @use "lessons/lesson-11/if";
+// @use "lessons/lesson-11/each";
 
 // @use "lesson-12/examples";
-// @use "lesson-12/_functions.scss";
+// @use "lessons/lesson-12/_functions.scss";
 
-// @use "lesson-13/list";
+// @use "lessons/lesson-13/list";
 
-@use "lesson-14/colors";
-@use "lesson-14/map";
-@use "lesson-14/alers";
+// @use "lessons/lesson-14/colors";
+// @use "lessons/lesson-14/map";
+// @use "lessons/lesson-14/alers";

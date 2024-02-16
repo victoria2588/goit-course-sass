@@ -1,42 +1,35 @@
-.icon-40px {
-  font-size: 40px;
-  height: 40px;
-  width: 40px;
+@charset "UTF-8";
+/*  Отримуємо значення з мапи */
+body {
+  background-color: #e9e9e9;
 }
 
-.icon-50px {
-  font-size: 50px;
-  height: 50px;
-  width: 50px;
+/*
+   Перевикористовуємо мапу кольорів
+   для стилізації кнопки
+*/
+.button {
+  color: #8e3329;
+  background-color: #e9e9e9;
 }
 
-.icon-80px {
-  font-size: 80px;
-  height: 80px;
-  width: 80px;
+/* Генеруємо набір класів повідомлень */
+.alert-primary {
+  background-color: #f07f2e;
 }
 
-.btn-sm {
-  padding: 5px 10px;
-  border-radius: 10px;
+.alert-success {
+  background-color: #82c43c;
 }
 
-.btn-md {
-  padding: 10px 15px;
-  border-radius: 15px;
+.alert-danger {
+  background-color: #fc5a5a;
 }
 
-.btn-lg {
-  padding: 15px 20px;
-  border-radius: 20px;
+.alert-warning {
+  background-color: #a461d8;
 }
 
-.btn-xl {
-  padding: 20px 25px;
-  border-radius: 25px;
-}
-
-btn-xxl {
-  padding: 25px 30px;
-  border-radius: 30px;
+.alert-info {
+  background-color: #4e75ff;
 }
